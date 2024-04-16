@@ -18,11 +18,13 @@ header {
     color: #ffffff;
 }
 
+/*Styling for Title*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Styling for claa="seo"*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,16 +43,19 @@ header nav ul {
     list-style-type: none;
 }
 
+/*Styling for List Element*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Anchor*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Paragraph Text*/
 p {
     font-size: 16px;
 }
@@ -65,23 +70,26 @@ p {
     background-position: center;
 }
 
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Styling applied for Search Engine Optimization, Online Reputation Management, and Social Media Marketing.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styling for Images of Search Engine Optimization and Social Media Marketing*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Styling for Image of Online Reputation Management*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Styling for Search Engine Optimization Container*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,6 +99,7 @@ p {
     color: #ffffff;
 }
 
+/*Styling for Online Reputation Management Container*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,6 +109,7 @@ p {
     color: #ffffff;
 }
 
+/*Styling for Social Media Marketing Container*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -109,34 +119,40 @@ p {
     color: #ffffff;
 }
 
+/*Styling for Search Engine Optimization Image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Styling for Online Reputation Management Image*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Styling for Social Media Management Image*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Styling for Search Engine Optimization Header*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Styling for Online Reputation Management Header*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Styling for Social Media Management Header*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*Styling Applied for Side Bar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -148,54 +164,64 @@ p {
     background-color: #2589bd;
 }
 
+/*Styling for Lead Generation Container*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Styling for Brand Awareness Container*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Styling for Cost Management Container*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Styling for Lead Generation Header*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Styling for Brand Awareness Header*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Styling for Cost Management Header*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Styling for Lead Generation Image*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Styling for Brand Awareness Image*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Styling for Cost Management Image*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -203,6 +229,7 @@ footer {
     text-align: center;
 }
 
+/*Styling Applied for Footer Heading*/
 footer h2 {
     font-size: 20px;
 }
