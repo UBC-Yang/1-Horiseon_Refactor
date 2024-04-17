@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Header Content*/
+/*Header Content*/ 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ header h1 {
     font-size: 48px;
 }
 
-/*Styling for claa="seo"*/
+/*Styling for class="seo"*/
 header h1 .seo {
     color: #d9dcd6;
 }
