@@ -8,4 +8,5 @@ Week 1 challange: Refactor Horisoen Website
 
 ## Deployed Application
 Github Repository: https://github.com/UBC-Yang/1-Horiseon_Refactor
+
 Website: https://ubc-yang.github.io/1-Horiseon_Refactor/
