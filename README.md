@@ -6,7 +6,11 @@ Week 1 challange: Refactor Horisoen Website
 
 **Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
 
+## Screenshot
+[Screenshot](ubc-yang.github.io_1-Horiseon_Refactor_.png)
+
 ## Deployed Application
 Github Repository: https://github.com/UBC-Yang/1-Horiseon_Refactor
 
 Website: https://ubc-yang.github.io/1-Horiseon_Refactor/
+
