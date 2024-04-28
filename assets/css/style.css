@@ -1,7 +1,6 @@
 /*Styling Applied to all Elements*/
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
@@ -10,15 +9,15 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Header Content*/ 
+/*Styling for Header*/ 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/*Styling for Title*/
+/*Styling for Web Title*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -43,7 +42,7 @@ header nav ul {
     list-style-type: none;
 }
 
-/*Styling for List Element*/
+/*Styling for Navigation List*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -70,11 +69,16 @@ p {
     background-position: center;
 }
 
-/*Styling applied for Search Engine Optimization, Online Reputation Management, and Social Media Marketing.*/
+/*Styling applied for Search Engine Optimization, Online Reputation Management, and Social Media Marketing*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/*Styling for images within Content Section*/
+.content img {
+    max-height: 200px;
 }
 
 /*Styling for Images of Search Engine Optimization and Social Media Marketing*/
@@ -89,8 +93,14 @@ p {
     margin-left: 25px;
 }
 
-/*Styling for Search Engine Optimization Container*/
-.search-engine-optimization {
+/*Styling for headers within Content Section*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Detail Styling for Search Engine Optimization, Online Reputation Management, and Social Media Marketing*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -99,60 +109,7 @@ p {
     color: #ffffff;
 }
 
-/*Styling for Online Reputation Management Container*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Styling for Social Media Marketing Container*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Styling for Search Engine Optimization Image*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/*Styling for Online Reputation Management Image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*Styling for Social Media Management Image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Styling for Search Engine Optimization Header*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Styling for Online Reputation Management Header*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Styling for Social Media Management Header*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Styling Applied for Side Bar*/
+/*Styling for Side Bar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -164,58 +121,20 @@ p {
     background-color: #2589bd;
 }
 
-/*Styling for Lead Generation Container*/
-.benefit-lead {
+/*Styling for Lead Generation, Brand Awareness, and Cost Management container*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Styling for Brand Awareness Container*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Styling for Cost Management Container*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Styling for Lead Generation Header*/
-.benefit-lead h3 {
+/*Styling for headers within Benefits section*/
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Styling for Brand Awareness Header*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Styling for Cost Management Header*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Styling for Lead Generation Image*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Styling for Brand Awareness Image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Styling for Cost Management Image*/
-.benefit-cost img {
+/*Styling for images within Benefits section*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -229,7 +148,7 @@ footer {
     text-align: center;
 }
 
-/*Styling Applied for Footer Heading*/
+/*Styling for Footer Heading*/
 footer h2 {
     font-size: 20px;
 }
